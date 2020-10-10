@@ -9,6 +9,6 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-tweet = 'A2Z is the best! ' + str(random())
+tweet = 'Hello world! ' + str(random())
   
 api.update_status(tweet)
